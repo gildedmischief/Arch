@@ -1,0 +1,30 @@
+{
+    "audio": "pipewire",
+    "bootloader": "systemd-bootctl",
+    "filesystem": "ext4",
+    "gfx_driver": "All open-source (default)",
+    "harddrive": {
+        "path": "/dev/sda"
+    },
+    "hostname": "test",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-language": "us",
+    "mirror-region": "auto detect best mirror",
+    "nic": {
+        "NetworkManager": true
+    },
+    "ntp": true,
+    "packages": ["ansible", "git", "chromium", "vim"],
+    "profile": "kde",
+    "superusers": {
+        "admin": {
+            "!password": "trust951"
+        }
+    },
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "US/Central",
+    "users": {}
+}
