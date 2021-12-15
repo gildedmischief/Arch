@@ -20,7 +20,7 @@
     "profile": "kde",
     "superusers": {
         "admin": {
-            "!password": "trust951"
+            "!password": "password"
         }
     },
     "sys-encoding": "utf-8",
